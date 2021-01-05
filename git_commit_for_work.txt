@@ -1,0 +1,166 @@
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git init
+Initialized empty Git repository in /home/alalibo/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis/.git/
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git add .
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git commit
+[master (root-commit) 7b77f79] thesis writeup
+ 3 files changed, 98 insertions(+)
+ create mode 100644 F_A_csc911_ml.pptx
+ create mode 100644 Fiberesima_Alalibo_ml_seminar_report_thesis.docx
+ create mode 100644 introduction_hidden_markov-models.txt
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git log
+commit 7b77f79c0d75af62b025cbc0a90fc529441f33d2 (HEAD -> master)
+Author: al-fiber <fiberesima.a.r@outlook.com>
+Date:   Tue Jan 5 01:08:12 2021 +0100
+
+    thesis writeup
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git remote -v
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git push thesis master
+fatal: 'thesis' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git remote add https://github.com/al-fiber/thesis.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git remote add -m thesis https://github.com/al-fiber/thesis.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git remote add -m https://github.com/al-fiber/thesis.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git remote add thesis https://github.com/al-fiber/thesis.git
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git push origin thesis
+error: src refspec thesis does not match any.
+error: failed to push some refs to 'origin'
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git remote -v
+thesis	https://github.com/al-fiber/thesis.git (fetch)
+thesis	https://github.com/al-fiber/thesis.git (push)
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git push thesis master
+Username for 'https://github.com': al-fiber                  
+Password for 'https://al-fiber@github.com': 
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 93.28 KiB | 18.66 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/al-fiber/thesis/pull/new/master
+remote: 
+To https://github.com/al-fiber/thesis.git
+ * [new branch]      master -> master
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git push thesis main
+error: src refspec main does not match any.
+error: failed to push some refs to 'https://github.com/al-fiber/thesis.git'
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git remote -v
+thesis	https://github.com/al-fiber/thesis.git (fetch)
+thesis	https://github.com/al-fiber/thesis.git (push)
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git push thesis main
+error: src refspec main does not match any.
+error: failed to push some refs to 'https://github.com/al-fiber/thesis.git'
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git commit -am myCommit
+On branch master
+nothing to commit, working tree clean
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git remote -v
+thesis	https://github.com/al-fiber/thesis.git (fetch)
+thesis	https://github.com/al-fiber/thesis.git (push)
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git remote remove thesis
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git remote -v
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git remote add origin https://github.com/al-fiber/thesis.git
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git push origin master
+Username for 'https://github.com': al-fiber
+Password for 'https://al-fiber@github.com': 
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 93.28 KiB | 18.66 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/al-fiber/thesis/pull/new/master
+remote: 
+To https://github.com/al-fiber/thesis.git
+ * [new branch]      master -> master
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git push origin main
+error: src refspec main does not match any.
+error: failed to push some refs to 'https://github.com/al-fiber/thesis.git'
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git push origin HEAD:main
+Username for 'https://github.com': al-fiber
+Password for 'https://al-fiber@github.com': 
+To https://github.com/al-fiber/thesis.git
+ ! [rejected]        HEAD -> main (fetch first)
+error: failed to push some refs to 'https://github.com/al-fiber/thesis.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git pull thesis master
+fatal: 'thesis' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git push origin master
+Username for 'https://github.com': al-fiber
+Password for 'https://al-fiber@github.com': 
+Everything up-to-date
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git push -f origin HEAD:main
+Username for 'https://github.com': al-fiber
+Password for 'https://al-fiber@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/al-fiber/thesis.git/'
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git push -f origin HEAD:main
+Username for 'https://github.com': al-fiber
+Password for 'https://al-fiber@github.com': 
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/al-fiber/thesis.git
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ 
+
+
