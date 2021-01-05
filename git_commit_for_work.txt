@@ -190,4 +190,44 @@ Total 0 (delta 0), reused 0 (delta 0)
 To https://github.com/al-fiber/thesis.git
    7b77f79..f8bc72c  master -> master
 alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ 
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git push -f origin HEAD:main
+Username for 'https://github.com': al-fiber
+Password for 'https://al-fiber@github.com': 
+Everything up-to-date
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git commit -am refs_and_ml_writeup
+[master a58402f] refs_and_ml_writeup
+ 1 file changed, 28 insertions(+), 1 deletion(-)
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git add .
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git commit -am refs_and_ml_writeup
+[master bd13b19] refs_and_ml_writeup
+ 10 files changed, 16132 insertions(+)
+ create mode 100644 Goyat_and_co.pdf
+ create mode 100644 Goyat_more_info_detail.pdf
+ create mode 100644 IQ_Neisser2.pdf
+ create mode 100644 Nichols_etal.pdf
+ create mode 100644 git_stackoverflow.pdf
+ create mode 100644 git_stackoverflow2.pdf
+ create mode 100644 kersting.pdf
+ create mode 100644 my_base_for_my_thesis.pdf
+ create mode 100644 references.docx
+ create mode 100644 wang_et_al.pdf
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git push -f origin HEAD:main
+Username for 'https://github.com': al-fiber
+Password for 'https://al-fiber@github.com': 
+Counting objects: 15, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (15/15), 8.86 MiB | 410.00 KiB/s, done.
+Total 15 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/al-fiber/thesis.git
+   f8bc72c..bd13b19  HEAD -> main
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git push -f origin master
+Username for 'https://github.com': al-fiber
+Password for 'https://al-fiber@github.com': 
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/al-fiber/thesis.git
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ 
+
+
 
