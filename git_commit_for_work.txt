@@ -161,6 +161,33 @@ Username for 'https://github.com': al-fiber
 Password for 'https://al-fiber@github.com': 
 Total 0 (delta 0), reused 0 (delta 0)
 To https://github.com/al-fiber/thesis.git
-alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ 
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git commit -am myCommit
+On branch master
+Untracked files:
+	git_commit_for_work.txt
 
+nothing added to commit but untracked files present
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git add .
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git commit -am myCommit
+[master f8bc72c] myCommit
+ 1 file changed, 166 insertions(+)
+ create mode 100644 git_commit_for_work.txt
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git push -f origin HEAD:main
+Username for 'https://github.com': al-fiber
+Password for 'https://al-fiber@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.74 KiB | 1.74 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/al-fiber/thesis.git
+   7b77f79..f8bc72c  HEAD -> main
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ git push -f origin master
+Username for 'https://github.com': al-fiber
+Password for 'https://al-fiber@github.com': 
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/al-fiber/thesis.git
+   7b77f79..f8bc72c  master -> master
+alalibo@alalibo-HP-EliteBook-8470p:~/Documents/progress_references/Fiberesima_Alalibo_thesis/csc_911_seminar_and_thesis$ 
 
